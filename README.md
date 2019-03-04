@@ -1,2 +1,2 @@
-# nextjs
+# NextJs
 A simple Nextjs Application 
