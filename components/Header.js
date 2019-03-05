@@ -13,6 +13,9 @@ const Header = () => (
         <Link href="/about">
           <a style={linkStyle}>About</a>
         </Link>
+        <Link href="/users" prefetch>
+          <a style={linkStyle}>Users</a>
+        </Link>
     </div>
 )
 
