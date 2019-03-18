@@ -7,7 +7,7 @@ export default class Index extends React.Component {
     const res = await fetch('https://api.github.com/repos/zeit/next.js')
     const data = await res.json()
     
-    //console.log('json data',data);
+    console.log('json data',data);
     return { stars: data.stargazers_count }
 }
 

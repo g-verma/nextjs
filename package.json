@@ -4,6 +4,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
+    "start" : "next",
     "now-build": "next build"
   },
   "dependencies": {
